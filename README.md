@@ -19,6 +19,8 @@ Qiao's vim files
 * [supertab](https://github.com/ervandew/supertab) - Perform all your vim insert mode completions with Tab 
 * [surround](https://github.com/tpope/vim-surround) - quoting/parenthesizing made simple
 * [syntastic](https://github.com/scrooloose/syntastic/) - Syntax checking hacks for vim 
+* [tagbar](https://github.com/majutsushi/tagbar) - displays tags in a window, ordered by class etc
+* [zencoding](https://github.com/mattn/zencoding-vim) - for high-speed HTML, XML, XSL, etc coding and editing.
 
 
 ## Dependencies ##
