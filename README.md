@@ -34,9 +34,9 @@ All the following commands are for ArchLinux. Packages names and install tools m
 * `ack` - required by `ack.vim`
 * `ctags` - required by `tagbar`
 
-
-    $ sudo yaourt -S ack ctags
-
+```
+sudo yaourt -S ack ctags
+```
 
 ## Installation ##
 
