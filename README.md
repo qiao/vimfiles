@@ -4,6 +4,7 @@ Qiao's vim files
 ## Bundled Plugins ##
 
 * [ack](https://github.com/mileszs/ack.vim) - for the Perl module / CLI script 'ack'
+* [bufexplorer](https://github.com/vim-scripts/bufexplorer.zip) - Buffer Explorer / Browser
 * [closetag](https://github.com/docunext/closetag.vim) - Functions and mappings to close open HTML/XML tags
 * [delimitMate](https://github.com/Raimondi/delimitMate) - provides insert mode auto-completion for quotes, parens, brackets, etc
 * [fugitive](https://github.com/tpope/vim-fugitive) - a Git wrapper 
@@ -17,6 +18,9 @@ Qiao's vim files
 
 All the following commands are for ArchLinux. Packages names and install tools may differ in other distributions.
 
+* ack - required by ack.vim
+
+    sudo yaourt -S ack  
 
 ## Installation ##
 
