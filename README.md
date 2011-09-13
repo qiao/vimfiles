@@ -22,24 +22,39 @@ Qiao's vim files
 * [tagbar](https://github.com/majutsushi/tagbar) - displays tags in a window, ordered by class etc
 * [zencoding](https://github.com/mattn/zencoding-vim) - for high-speed HTML, XML, XSL, etc coding and editing.
 
+## Themes ##
+
+* mycolor - self-made color scheme
+* [tomorrow](https://github.com/ChrisKempson/Tomorrow-Theme/tree/master/Vim) - A Pastel Coloured Editor Theme 
 
 ## Dependencies ##
 
 All the following commands are for ArchLinux. Packages names and install tools may differ in other distributions.
 
-* ack - required by ack.vim
+* `ack` - required by `ack.vim`
+* `ctags` - required by `tagbar`
 
-    sudo yaourt -S ack  
+    $ sudo yaourt -S ack ctags
 
 ## Installation ##
 
+Note: All the following commands should be executed in yout home directory.
+
 Backup your own vim files.
 
-    mv .vim .vim.bak
-    mv .vimrc .vimrc.bak
+    $ mv .vim .vim.bak
+    $ mv .vimrc .vimrc.bak
 
 Clone this repository.
 
-    git clone git@github.com:qiao/vimfiles.git
+    $ git clone git@github.com:qiao/vimfiles.git
 
-Move and link the files.
+Create link for `.vimrc`.
+    
+    $ ln -s .vim/vimrc .vimrc
+
+Update the submodules.
+
+    $ cd .vim
+    $ submodule init && git submodule update
+

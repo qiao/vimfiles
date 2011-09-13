@@ -68,7 +68,7 @@ set number
 "let g:SuperTabRetainCompletionType=2
 "let g:SuperTabDefaultCompletionType="<C-X><C-O>"
 
-"color mycolor
+color mycolor
 
 "let Tlist_Show_One_File=1
 "let Tlist_Exit_OnlyWindow=1
