@@ -7,11 +7,10 @@ Qiao's vim files
 * [bufexplorer](https://github.com/vim-scripts/bufexplorer.zip) - Buffer Explorer / Browser
 * [closetag](https://github.com/docunext/closetag.vim) - Functions and mappings to close open HTML/XML tags
 * [delimitMate](https://github.com/Raimondi/delimitMate) - provides insert mode auto-completion for quotes, parens, brackets, etc
+* [endwise](https://github.com/tpope/vim-endwise) - wisely add "end" in ruby, endfunction/endif/more in vim script, etc
 * [fugitive](https://github.com/tpope/vim-fugitive) - a Git wrapper 
 * [nerd commenter](https://github.com/scrooloose/nerdcommenter) - for intensely orgasmic commenting 
 * [pyflakes](https://github.com/kevinw/pyflakes-vim) on the fly Python checking in Vim with PyFlakes
-
-
 
 
 ## Dependencies ##
