@@ -21,7 +21,7 @@ hi LineNr guifg=#3D3D3D guibg=black ctermfg=yellow ctermbg=0
 
 hi VertSplit guifg=#202020 guibg=#202020 ctermfg=235 ctermbg=235 
 hi StatusLine guifg=#CCCCCC guibg=#202020 gui=italic ctermfg=235 ctermbg=254
-hi StatusLineNC guifg=black guibg=#202020 ctermfg=0 ctermbg=235 
+hi StatusLineNC guifg=blue guibg=#202020 ctermfg=darkgrey ctermbg=white
 
 hi Folded guifg=#a0a8b0 guibg=#384048 ctermfg=103 ctermbg=60
 hi Title guifg=#f6f3e8 gui=bold ctermfg=187 cterm=bold
@@ -50,13 +50,13 @@ endif
 " Syntax highlighting
 hi Comment guifg=#A8FF60 ctermfg=155 
 hi String guifg=#A8FF60 ctermfg=155 
-hi Number guifg=#FF73FD ctermfg=172
+hi Number guifg=#FF73FD ctermfg=magenta
 
 hi Keyword guifg=#96CBFE ctermfg=117 
 hi PreProc guifg=#96CBFE ctermfg=117 
 hi Conditional guifg=#6699CC ctermfg=110 
 
-hi Todo guifg=#000000 guibg=#cae682 ctermfg=0 ctermbg=195 
+hi Todo guifg=#000000 guibg=#cae682 ctermfg=0 ctermbg=yellow
 hi Constant guifg=#99CC99 ctermfg=151 
 
 hi Identifier guifg=#C6C5FE ctermfg=189 
