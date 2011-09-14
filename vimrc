@@ -60,26 +60,25 @@ set ruler
 set number 
 
 " Indent guides (default toggle key is <leader>ig)
-let g:indent_guides_auto_colors = 0
-let g:indent_guides_start_level = 2
-let g:indent_guides_guide_size = 1
-autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd  ctermbg=darkgrey
-autocmd VimEnter,Colorscheme * :hi IndentGuidesEven ctermbg=grey
+let g:indent_guides_auto_colors=0
+let g:indent_guides_start_level=2 
+let g:indent_guides_guide_size=1
+autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd  ctermbg=239
+autocmd VimEnter,Colorscheme * :hi IndentGuidesEven ctermbg=242
 
 " SuperTab
 let g:SuperTabDefaultCompletionType="<c-n>"
 
 " Zen-coding expand key
-let g:user_zen_expandabbr_key = '<c-j>'
+let g:user_zen_expandabbr_key='<c-j>'
 
 " Nerd Tree 
 let NERDChristmasTree=1
 let NERDTreeWinSize=25
 
 " Tagbar
-let g:tagbar_left = 0
-let g:tagbar_width = 30
-
+let g:tagbar_left=0
+let g:tagbar_width=30
 
 " Key mappings
 nmap <F5> :NERDTreeToggle<cr>
