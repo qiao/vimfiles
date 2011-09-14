@@ -76,8 +76,9 @@ let g:pydiction_location = '~/.vim/bundle/pydiction/complete-dict'
 " Zen-coding expand key
 let g:user_zen_expandabbr_key = '<c-j>'
 
-" Nerd Tree toggle
+" Nerd Tree 
+let NERDChristmasTree=1
 nmap <F5> :NERDTreeToggle<cr>
 
-" Tagbar toggle
+" Tagbar
 nmap <F6> :TagbarToggle<cr>
