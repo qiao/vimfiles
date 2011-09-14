@@ -1,3 +1,6 @@
+" Don't be compatible with vi
+set nocompatible 
+
 filetype on  
 filetype plugin on
 filetype plugin indent on
@@ -5,9 +8,6 @@ filetype plugin indent on
 " Load pathogen to manage plugins
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
-
-" Don't be compatible with vi
-set nocompatible 
 
 " More powerful backspacing
 set backspace=indent,eol,start
