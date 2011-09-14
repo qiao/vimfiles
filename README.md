@@ -14,6 +14,7 @@ Qiao's vim files
 * [matchit](https://github.com/vim-scripts/matchit.zip) - extended % matching for HTML, LaTeX, and many other languages
 * [nerd commenter](https://github.com/scrooloose/nerdcommenter) - for intensely orgasmic commenting 
 * [nerd tree](https://github.com/scrooloose/nerdtree) - tree explorer plugin for navigating the filesystem
+* [pydiction](https://github.com/vim-scripts/Pydiction) - Tab-complete your Python code
 * [pyflakes](https://github.com/kevinw/pyflakes-vim) - on the fly Python checking in Vim with PyFlakes
 * [rails.vim](https://github.com/tpope/vim-rails) - Ruby on Rails power tools 
 * [supertab](https://github.com/ervandew/supertab) - Perform all your vim insert mode completions with Tab 

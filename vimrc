@@ -64,7 +64,8 @@ color Tomorrow-Night
 " SuperTab
 let g:SuperTabDefaultCompletionType="<c-n>"
 
-"let g:pydiction_location = '~/.vim/ftplugin/pydiction/complete-dict'
+" Pydiction
+let g:pydiction_location = '~/.vim/bundle/pydiction/complete-dict'
 
 " Zen-coding expand key
 let g:user_zen_expandabbr_key = '<c-j>'
@@ -74,4 +75,3 @@ nmap <F5> :NERDTreeToggle<cr>
 
 " Tagbar toggle
 nmap <F6> :TagbarToggle<cr>
-
