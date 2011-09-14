@@ -19,8 +19,9 @@ Qiao's vim files
 * [supertab](https://github.com/ervandew/supertab) - Perform all your vim insert mode completions with Tab 
 * [surround](https://github.com/tpope/vim-surround) - quoting/parenthesizing made simple
 * [syntastic](https://github.com/scrooloose/syntastic/) - Syntax checking hacks for vim 
+* [tabbar](http://www.vim.org/scripts/script.php?script_id=1338) - to add tab bar (derived from miniBufExplorer)
 * [tagbar](https://github.com/majutsushi/tagbar) - displays tags in a window, ordered by class etc
-* [zencoding](https://github.com/mattn/zencoding-vim) - for high-speed HTML, XML, XSL, etc coding and editing.
+* [zencoding](https://github.com/mattn/zencoding-vim) - for high-speed HTML, XML, XSL, etc coding and editing
 
 ## Themes ##
 
@@ -29,18 +30,19 @@ Qiao's vim files
 
 ## Dependencies ##
 
-All the following commands are for ArchLinux. Packages names and install tools may differ in other distributions.
 
 * `ack` - required by `ack.vim`
 * `ctags` - required by `tagbar`
 
+All the following commands are for ArchLinux. Packages names and install tools may differ in other distributions.
+
 ```
-sudo yaourt -S ack ctags
+$ sudo yaourt -S ack ctags
 ```
 
 ## Installation ##
 
-Note: All the following commands should be executed in yout home directory.
+Note: The following commands should be executed in yout home directory.
 
 Backup your own vim files.
 
@@ -50,6 +52,7 @@ Backup your own vim files.
 Clone this repository.
 
     $ git clone git@github.com:qiao/vimfiles.git
+    $ mv vimfiles .vim
 
 Create link for `.vimrc`.
     
