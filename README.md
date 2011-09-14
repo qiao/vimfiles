@@ -16,7 +16,6 @@ Qiao's vim files
 * [nerd commenter](https://github.com/scrooloose/nerdcommenter) - for intensely orgasmic commenting 
 * [nerd tree](https://github.com/scrooloose/nerdtree) - tree explorer plugin for navigating the filesystem
 * [javascript.vim](http://www.vim.org/scripts/script.php?script_id=1491) - Better JavaScrirpt syntax support 
-* [pydiction](https://github.com/vim-scripts/Pydiction) - Tab-complete your Python code
 * [pyflakes](https://github.com/kevinw/pyflakes-vim) - on the fly Python checking in Vim with PyFlakes
 * [python.vim](http://www.vim.org/scripts/script.php?script_id=790) - Enhanced version of the python syntax highlighting script 
 * [rails.vim](https://github.com/tpope/vim-rails) - Ruby on Rails power tools 

@@ -21,10 +21,13 @@ if has("syntax")
   syntax on
 endif
 
-
 " If using a dark background within the editing area and syntax highlighting
 " turn on this option as well
 set background=dark
+
+" Color settings
+set t_Co=256
+color tir_black
 
 " Uncomment the following to have Vim jump to the last position when
 " reopening a file
@@ -38,7 +41,7 @@ if filereadable("/etc/vim/vimrc.local")
 endif
 
 set showcmd	        " Show (partial) command in status line.
-set autowrite       " Automatically save before commands like :next and :make
+"set autowrite       " Automatically save before commands like :next and :make
 
 " Matching
 set showmatch       " Show matching brackets.
@@ -56,10 +59,6 @@ set linespace=4
 set ruler        
 set number 
 
-" Color settings
-set t_Co=256
-color tir_black
-
 " Indent guides (default toggle key is <leader>ig)
 let g:indent_guides_auto_colors = 0
 let g:indent_guides_start_level = 2
@@ -70,15 +69,18 @@ autocmd VimEnter,Colorscheme * :hi IndentGuidesEven ctermbg=grey
 " SuperTab
 let g:SuperTabDefaultCompletionType="<c-n>"
 
-" Pydiction
-let g:pydiction_location = '~/.vim/bundle/pydiction/complete-dict'
-
 " Zen-coding expand key
 let g:user_zen_expandabbr_key = '<c-j>'
 
 " Nerd Tree 
 let NERDChristmasTree=1
-nmap <F5> :NERDTreeToggle<cr>
+let NERDTreeWinSize=25
 
 " Tagbar
+let g:tagbar_left = 0
+let g:tagbar_width = 30
+
+
+" Key mappings
+nmap <F5> :NERDTreeToggle<cr>
 nmap <F6> :TagbarToggle<cr>
