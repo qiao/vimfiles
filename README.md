@@ -68,3 +68,8 @@ Update the submodules.
     $ cd .vim
     $ submodule init && git submodule update
 
+## Key Mappings ##
+
+* F4 -> indentations guides
+* F5 -> Nerd-Tree file viewer
+* F6 -> tagbar

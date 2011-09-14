@@ -81,5 +81,6 @@ let g:tagbar_left=0
 let g:tagbar_width=30
 
 " Key mappings
+nmap <F4> :IndentGuidesToggle<cr>
 nmap <F5> :NERDTreeToggle<cr>
 nmap <F6> :TagbarToggle<cr>
