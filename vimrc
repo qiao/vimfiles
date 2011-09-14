@@ -57,9 +57,16 @@ set linespace=4
 set ruler        
 set number 
 
-" Color settings, uncomment the next line to enable 256 colors
-"set t_Co=256
+" Color settings
+set t_Co=256
 color Tomorrow-Night
+
+" Indent guides
+let g:indent_guides_auto_colors = 0
+let g:indent_guides_start_level = 2
+let g:indent_guides_guide_size = 1
+autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd  ctermbg=darkgrey
+autocmd VimEnter,Colorscheme * :hi IndentGuidesEven ctermbg=grey
 
 " SuperTab
 let g:SuperTabDefaultCompletionType="<c-n>"
