@@ -37,7 +37,6 @@ if filereadable("/etc/vim/vimrc.local")
   source /etc/vim/vimrc.local
 endif
 
-
 set showcmd	        " Show (partial) command in status line.
 set autowrite       " Automatically save before commands like :next and :make
 
@@ -59,9 +58,9 @@ set number
 
 " Color settings
 set t_Co=256
-color Tomorrow-Night
+color tir_black
 
-" Indent guides
+" Indent guides (default toggle key is <leader>ig)
 let g:indent_guides_auto_colors = 0
 let g:indent_guides_start_level = 2
 let g:indent_guides_guide_size = 1
