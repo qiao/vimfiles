@@ -15,11 +15,8 @@ set backspace=indent,eol,start
 " Larger history storage
 set history=1000
 
-" Vim5 and later versions support syntax highlighting. Uncommenting the
-" following enables syntax highlighting by default.
-if has("syntax")
-  syntax on
-endif
+" Enalbe syntax highlighting
+syntax on
 
 " If using a dark background within the editing area and syntax highlighting
 " turn on this option as well
@@ -40,14 +37,13 @@ if filereadable("/etc/vim/vimrc.local")
   source /etc/vim/vimrc.local
 endif
 
-set showcmd	        " Show (partial) command in status line.
-"set autowrite       " Automatically save before commands like :next and :make
+set showcmd         " Show (partial) command in status line.
 
 " Matching
 set showmatch       " Show matching brackets.
-set smartcase	    " Do smart case matching
-set incsearch		" Incremental search
-set ignorecase		" Do case insensitive matching
+set smartcase       " Do smart case matching
+set incsearch       " Incremental search
+set ignorecase      " Do case insensitive matching
 
 " Indentation
 set autoindent
