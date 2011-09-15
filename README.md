@@ -39,7 +39,7 @@ Qiao's vim files
 * `ack` - required by `ack.vim`
 * `ctags` - required by `tagbar`
 
-All the following commands are for ArchLinux. Packages names and install tools may differ in other distributions.
+The following command is for ArchLinux. Package names and install tools may differ in other distributions.
 
 ```
 $ sudo yaourt -S ack ctags
@@ -66,7 +66,7 @@ Create link for `.vimrc`.
 Update the submodules.
 
     $ cd .vim
-    $ submodule init && git submodule update
+    $ git submodule init && git submodule update
 
 ## Key Mappings ##
 
