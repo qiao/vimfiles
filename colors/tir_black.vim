@@ -49,7 +49,7 @@ endif
 
 " Syntax highlighting
 hi Comment guifg=#A8FF60 ctermfg=155 
-hi String guifg=#A8FF60 ctermfg=155 
+hi String guifg=#A8FF60 ctermfg=250
 hi Number guifg=#FF73FD ctermfg=magenta
 
 hi Keyword guifg=#96CBFE ctermfg=117 

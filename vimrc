@@ -26,6 +26,9 @@ set background=dark
 set t_Co=256
 color tir_black
 
+" Extra syntax highlighting
+autocmd Syntax lisp,scheme,clojure runtime plugin/RainbowParenthsis.vim
+
 " Uncomment the following to have Vim jump to the last position when
 " reopening a file
 "if has("autocmd")
