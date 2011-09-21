@@ -20,19 +20,19 @@
 hi level1c ctermfg=39
 hi level2c ctermfg=49
 hi level3c ctermfg=82
-hi level4c ctermfg=190
+hi level4c ctermfg=yellow
 hi level5c ctermfg=white
 hi level6c ctermfg=141
 hi level7c ctermfg=39
 hi level8c ctermfg=49
 hi level9c ctermfg=82
-hi level10c ctermfg=190
+hi level10c ctermfg=yellow
 hi level11c ctermfg=white
 hi level12c ctermfg=141
 hi level13c ctermfg=39
 hi level14c ctermfg=49
 hi level15c ctermfg=82
-hi level16c ctermfg=190
+hi level16c ctermfg=yellow
 
 
 

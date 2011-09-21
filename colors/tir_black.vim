@@ -65,7 +65,7 @@ hi Type guifg=#FFFFB6 ctermfg=229
 hi Statement guifg=#6699CC ctermfg=110 
 
 hi Special guifg=#E18964 ctermfg=173 
-hi Delimiter guifg=#00A0A0 ctermfg=37 
+hi Delimiter guifg=#00A0A0 ctermfg=white
 hi Operator guifg=white ctermfg=white 
 
 hi link Character Constant
