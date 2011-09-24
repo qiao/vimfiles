@@ -28,7 +28,7 @@ color tir_black
 
 
 " Extra syntax highlighting for Lisp and variants
-" autocmd Syntax lisp,scheme,clojure runtime plugin/RainbowParenthsis.vim
+autocmd Syntax lisp,scheme,clojure runtime plugin/RainbowParenthsis.vim
 
 
 " Uncomment the following to have Vim jump to the last position when

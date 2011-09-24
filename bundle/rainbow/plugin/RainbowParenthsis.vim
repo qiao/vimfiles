@@ -17,17 +17,17 @@
 " Also, if this script doesn't work on your terminal, you may need to add
 " guifg=xx or ever termfg=, though what good this script will do on a 
 " black and white terminal I don't know.
-hi level1c ctermfg=39
-hi level2c ctermfg=49
-hi level3c ctermfg=82
-hi level4c ctermfg=yellow
-hi level5c ctermfg=white
-hi level6c ctermfg=141
-hi level7c ctermfg=39
-hi level8c ctermfg=49
-hi level9c ctermfg=82
-hi level10c ctermfg=yellow
-hi level11c ctermfg=white
+hi level1c ctermfg=82
+hi level2c ctermfg=yellow
+hi level3c ctermfg=172
+hi level4c ctermfg=167
+hi level5c ctermfg=141
+hi level6c ctermfg=39
+hi level7c ctermfg=49
+hi level8c ctermfg=82
+hi level9c ctermfg=yellow
+hi level10c ctermfg=172
+hi level11c ctermfg=167
 hi level12c ctermfg=141
 hi level13c ctermfg=39
 hi level14c ctermfg=49
