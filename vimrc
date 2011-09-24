@@ -70,8 +70,11 @@ autocmd VimEnter,Colorscheme * :hi IndentGuidesEven ctermbg=242
 " SuperTab
 let g:SuperTabDefaultCompletionType="<c-n>"
 
-" Zen-coding expand key
+" Zen-coding 
 let g:user_zen_expandabbr_key='<c-j>'
+let g:user_zen_settings = {
+\    'indentation': '    ',
+\}
 
 " Nerd Tree 
 let NERDChristmasTree=1
