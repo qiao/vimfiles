@@ -31,7 +31,6 @@ Qiao's vim files
 
 ## Themes ##
 
-* mycolor - self-made color scheme
 * [tomorrow](https://github.com/ChrisKempson/Tomorrow-Theme/tree/master/Vim)
 * [tir_black](http://www.vim.org/scripts/script.php?script_id=2777)
 * [inkpot](http://www.vim.org/scripts/script.php?script_id=1143)
