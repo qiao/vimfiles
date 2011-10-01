@@ -55,3 +55,6 @@
 [submodule "bundle/snipmate"]
 	path = bundle/snipmate
 	url = https://github.com/msanders/snipmate.vim.git
+[submodule "bundle/jquery"]
+	path = bundle/jquery
+	url = https://github.com/nono/jquery.vim.git

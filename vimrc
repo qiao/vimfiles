@@ -30,6 +30,9 @@ color tir_black
 " Extra syntax highlighting for Lisp and variants
 autocmd Syntax lisp,scheme,clojure runtime plugin/RainbowParenthsis.vim
 
+" JQuery syntax support
+autocmd Syntax javascript set syntax=jquery
+
 
 " Uncomment the following to have Vim jump to the last position when
 " reopening a file

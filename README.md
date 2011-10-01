@@ -16,6 +16,7 @@ Qiao's vim files
 * [nerd commenter](https://github.com/scrooloose/nerdcommenter) - for intensely orgasmic commenting 
 * [nerd tree](https://github.com/scrooloose/nerdtree) - tree explorer plugin for navigating the filesystem
 * [javascript.vim](http://www.vim.org/scripts/script.php?script_id=1491) - Better JavaScrirpt syntax support 
+* [jquery.vim](https://github.com/nono/jquery.vim) - Syntax file for jQuery
 * [pyflakes](https://github.com/kevinw/pyflakes-vim) - on the fly Python checking in Vim with PyFlakes
 * [python.vim](http://www.vim.org/scripts/script.php?script_id=790) - Enhanced version of the python syntax highlighting script 
 * [rainbow parenthesis](http://www.vim.org/scripts/script.php?script_id=1230) - highlights matching parenthesis with a rainbow of colors
