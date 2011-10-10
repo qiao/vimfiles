@@ -14,6 +14,7 @@ Qiao's vim files
 * [html5.vim](https://github.com/othree/html5.vim) - HTML5 omnicomplete and syntax
 * [indent guides](https://github.com/nathanaelkane/vim-indent-guides) - visually displaying indent levels in code
 * [matchit](https://github.com/vim-scripts/matchit.zip) - extended % matching for HTML, LaTeX, and many other languages
+* [neocomplcache](https://github.com/Shougo/neocomplcache) - Ultimate auto-completion system
 * [nerd commenter](https://github.com/scrooloose/nerdcommenter) - for intensely orgasmic commenting 
 * [nerd tree](https://github.com/scrooloose/nerdtree) - tree explorer plugin for navigating the filesystem
 * [jquery.vim](https://github.com/nono/jquery.vim) - Syntax file for jQuery
