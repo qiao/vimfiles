@@ -82,3 +82,4 @@ Install Command-T:
 * F5 -> Nerd-Tree file viewer
 * F6 -> tagbar
 * <c-j> -> zencoding expansion
+* <c-o> -> Command-T

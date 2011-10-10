@@ -70,12 +70,17 @@ let g:indent_guides_guide_size=1
 autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd  ctermbg=239
 autocmd VimEnter,Colorscheme * :hi IndentGuidesEven ctermbg=242
 
+" NeoComplCache
+let g:neocomplcache_enable_at_startup=1
+let g:neocomplcache_enable_smart_case=1
+let g:neocomplcache_min_syntax_length=5
+
 " SuperTab
 let g:SuperTabDefaultCompletionType="<c-n>"
 
 " Zen-coding 
 let g:user_zen_expandabbr_key='<c-j>'
-let g:user_zen_settings = {
+let g:user_zen_settings={
 \    'indentation': '    ',
 \}
 
@@ -91,3 +96,4 @@ let g:tagbar_width=30
 nmap <F4> :IndentGuidesToggle<cr>
 nmap <F5> :NERDTreeToggle<cr>
 nmap <F6> :TagbarToggle<cr>
+nmap <c-o> :CommandT<cr>
