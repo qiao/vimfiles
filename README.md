@@ -82,5 +82,5 @@ Install Command-T:
 * F4 -> indentations guides
 * F5 -> Nerd-Tree file viewer
 * F6 -> tagbar
-* <c-j> -> zencoding expansion
-* <c-o> -> Command-T
+* \<c-j\> -> zencoding expansion
+* \<c-o\> -> Command-T
