@@ -61,3 +61,6 @@
 [submodule "bundle/neocomplcache"]
 	path = bundle/neocomplcache
 	url = https://github.com/Shougo/neocomplcache.git
+[submodule "bundle/tabbar"]
+	path = bundle/tabbar
+	url = https://github.com/vim-scripts/TabBar.git
