@@ -74,7 +74,6 @@ autocmd VimEnter,Colorscheme * :hi IndentGuidesEven ctermbg=242
 let g:neocomplcache_enable_at_startup=1
 let g:neocomplcache_enable_smart_case=1
 let g:neocomplcache_disable_auto_complete=1
-let g:neocomplcache_min_syntax_length=5
 
 " SuperTab
 let g:SuperTabDefaultCompletionType="<C-X><C-U>"
