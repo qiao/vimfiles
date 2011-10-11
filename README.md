@@ -21,7 +21,6 @@ Qiao's vim files
 * [python.vim](http://www.vim.org/scripts/script.php?script_id=790) - Enhanced version of the python syntax highlighting script 
 * [rainbow parenthesis](http://www.vim.org/scripts/script.php?script_id=1230) - highlights matching parenthesis with a rainbow of colors
 * [rails.vim](https://github.com/tpope/vim-rails) - Ruby on Rails power tools 
-* [snipmate](https://github.com/msanders/snipmate.vim) - a concise vim script that implements some of TextMate's snippets features in Vim
 * [supertab](https://github.com/ervandew/supertab) - Perform all your vim insert mode completions with Tab 
 * [surround](https://github.com/tpope/vim-surround) - quoting/parenthesizing made simple
 * [syntastic](https://github.com/scrooloose/syntastic/) - Syntax checking hacks for vim 
