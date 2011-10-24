@@ -43,36 +43,34 @@ Qiao's vim files
 
 The following command is for ArchLinux. Package names and install tools may differ in other distributions.
 
-```
-$ sudo yaourt -S ruby ack ctags
-```
+    sudo yaourt -S ruby ack ctags
 
 ## Installation ##
 
 Backup your own vim files.
 
-    $ mv .vim .vim.bak
-    $ mv .vimrc .vimrc.bak
+    mv .vim .vim.bak
+    mv .vimrc .vimrc.bak
 
 Clone this repository.
 
-    $ git clone git@github.com:qiao/vimfiles.git
-    $ mv vimfiles .vim
+    git clone git@github.com:qiao/vimfiles.git
+    mv vimfiles .vim
 
 Create link for `.vimrc`.
     
-    $ ln -s .vim/vimrc .vimrc
+    ln -s .vim/vimrc .vimrc
 
-Update the submodules.
+Update the submodules (This step may take some time. Go have your self a cup of tea!).
 
-    $ cd .vim
-    $ git submodule init && git submodule update
+    cd .vim
+    git submodule init && git submodule update
 
 Install Command-T:
     
-    $ cd bundle/command-t/ruby/command-t
-    $ ruby extconf.rb
-    $ make
+    cd bundle/command-t/ruby/command-t
+    ruby extconf.rb
+    make
 
 ## Key Mappings ##
 
