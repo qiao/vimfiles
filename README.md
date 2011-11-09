@@ -62,7 +62,7 @@ Create link for `.vimrc`.
     
     ln -s .vim/vimrc .vimrc
 
-Update the submodules (This step may take some time. Go have your self a cup of tea!).
+Update the submodules (This step may take some time. Go have yourself a cup of tea).
 
     cd .vim
     git submodule init && git submodule update
@@ -73,10 +73,11 @@ Install Command-T:
     ruby extconf.rb
     make
 
-## Key Mappings ##
+## Key Bindings ##
 
-* F4 -> indentations guides
-* F5 -> Nerd-Tree file viewer
-* F6 -> tagbar
-* \<c-j\> -> zencoding expansion
-* \<c-o\> -> Command-T
+* `F4` -> Toggle indentations guides
+* `F5` -> Toggle Nerd-Tree file viewer
+* `F6` -> Toggle tagbar
+* `Ctrl` + `j` -> Call zen-coding expansion on html tags
+* `Ctrl` + `o` -> Open file using Command-T
+* `Alt` + `1~9` -> Switch between multiple tags
