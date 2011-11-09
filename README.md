@@ -75,9 +75,9 @@ Install Command-T:
 
 ## Key Bindings ##
 
-* `F4` -> Toggle indentations guides
+* `F4` -> Toggle indentation guides
 * `F5` -> Toggle Nerd-Tree file viewer
 * `F6` -> Toggle tagbar
 * `Ctrl` + `j` -> Call zen-coding expansion on html tags
 * `Ctrl` + `o` -> Open file using Command-T
-* `Alt` + `1~9` -> Switch between multiple tags
+* `Alt` + `1~9` -> Switch between multiple buffers
