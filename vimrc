@@ -8,6 +8,7 @@ filetype plugin indent on
 " Load pathogen to manage plugins
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
+call pathogen#infect()
 
 " More powerful backspacing
 set backspace=indent,eol,start
