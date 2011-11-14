@@ -27,6 +27,7 @@ Qiao's vim files
 * [tabular](https://github.com/godlygeek/tabular) - for text filtering and alignment 
 * [tagbar](https://github.com/majutsushi/tagbar) - displays tags in a window, ordered by class etc
 * [vim-coffee-script](https://github.com/kchmck/vim-coffee-script) - CoffeeScript support for vim
+* [vim-jade](https://github.com/digitaltoad/vim-jade) - Jade template engine syntax highlighting and indention
 * [vim-javascript](https://github.com/pangloss/vim-javascript) - Vastly improved vim's javascript indentation
 * [zencoding](https://github.com/mattn/zencoding-vim) - for high-speed HTML, XML, XSL, etc coding and editing
 
