@@ -61,6 +61,8 @@ set tabstop=4
 set shiftwidth=4 
 set linespace=4
 
+autocmd Syntax html,ruby,javascript,coffee set tabstop=2 shiftwidth=2 linespace=2
+
 set ruler        
 set number 
 
@@ -84,7 +86,7 @@ let g:SuperTabDefaultCompletionType="<c-n>"
 " Zen-coding 
 let g:user_zen_expandabbr_key='<c-j>'
 let g:user_zen_settings={
-\    'indentation': '    ',
+\    'indentation': '  ',
 \}
 
 " Nerd Tree 
