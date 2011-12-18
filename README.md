@@ -29,6 +29,7 @@ Qiao's vim files
 * [vim-coffee-script](https://github.com/kchmck/vim-coffee-script) - CoffeeScript support for vim
 * [vim-jade](https://github.com/digitaltoad/vim-jade) - Jade template engine syntax highlighting and indention
 * [vim-javascript](https://github.com/pangloss/vim-javascript) - Vastly improved vim's javascript indentation
+* [vim-stylus](https://github.com/wavded/vim-stylus) - Syntax highlighting for Stylus
 * [zencoding](https://github.com/mattn/zencoding-vim) - for high-speed HTML, XML, XSL, etc coding and editing
 
 ## Themes ##
