@@ -13,11 +13,12 @@ Qiao's vim files
 * [fugitive](https://github.com/tpope/vim-fugitive) - Git wrapper 
 * [html5.vim](https://github.com/othree/html5.vim) - HTML5 omnicomplete and syntax
 * [indent guides](https://github.com/nathanaelkane/vim-indent-guides) - visually displaying indent levels in code
+* [jquery.vim](https://github.com/nono/jquery.vim) - Syntax file for jQuery
 * [matchit](https://github.com/vim-scripts/matchit.zip) - extended % matching for HTML, LaTeX, and many other languages
 * [neocomplcache](https://github.com/Shougo/neocomplcache) - Ultimate auto-completion system
 * [nerd commenter](https://github.com/scrooloose/nerdcommenter) - for intensely orgasmic commenting 
 * [nerd tree](https://github.com/scrooloose/nerdtree) - tree explorer plugin for navigating the filesystem
-* [jquery.vim](https://github.com/nono/jquery.vim) - Syntax file for jQuery
+* [powerline](https://github.com/Lokaltog/vim-powerline) - create better-looking, more functional vim statuslines
 * [rainbow parenthesis](http://www.vim.org/scripts/script.php?script_id=1230) - highlights matching parenthesis with a rainbow of colors
 * [rails.vim](https://github.com/tpope/vim-rails) - Ruby on Rails power tools 
 * [supertab](https://github.com/ervandew/supertab) - Perform all your vim insert mode completions with Tab 
