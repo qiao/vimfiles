@@ -98,6 +98,9 @@ let NERDTreeWinSize=25
 let g:tagbar_left=0
 let g:tagbar_width=30
 
+" Powerline
+set laststatus=2
+
 " Key mappings
 nmap <F4> :IndentGuidesToggle<cr>
 nmap <F5> :NERDTreeToggle<cr>
