@@ -7,7 +7,7 @@ Qiao's vim files
 * [bufexplorer](https://github.com/vim-scripts/bufexplorer.zip) - Buffer Explorer / Browser
 * [c.vim](https://github.com/vim-scripts/c.vim) - C/C++ IDE -- Write and run programs. Insert statements, idioms, comments etc
 * [closetag](https://github.com/docunext/closetag.vim) - Functions and mappings to close open HTML/XML tags
-* [command-t](https://github.com/wincent/Command-T) - provides an extremely fast, intuitive mechanism for opening files
+* [ctrlp](https://github.com/kien/ctrlp.vim) - Fuzzy file, buffer, mru and tag finder
 * [delimitMate](https://github.com/Raimondi/delimitMate) - provides insert mode auto-completion for quotes, parens, brackets, etc
 * [endwise](https://github.com/tpope/vim-endwise) - wisely add "end" in ruby, endfunction/endif/more in vim script, etc
 * [fugitive](https://github.com/tpope/vim-fugitive) - Git wrapper 
@@ -41,7 +41,6 @@ Qiao's vim files
 
 ## Dependencies ##
 
-* `ruby` - required by `command-t`
 * `ack-grep` - required by `ack.vim`
 * `ctags` - required by `tagbar`
 
@@ -70,17 +69,10 @@ Update the submodules (This step may take some time. Go have yourself a cup of t
     cd .vim
     git submodule init && git submodule update
 
-Install Command-T:
-    
-    cd bundle/command-t/ruby/command-t
-    ruby extconf.rb
-    make
-
 ## Key Bindings ##
 
 * `F4` -> Toggle indentation guides
 * `F5` -> Toggle Nerd-Tree file viewer
 * `F6` -> Toggle tagbar
 * `Ctrl` + `j` -> Call zen-coding expansion on html tags
-* `Ctrl` + `o` -> Open file using Command-T
 * `Alt` + `1~9` -> Switch between multiple buffers
