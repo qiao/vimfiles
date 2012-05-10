@@ -103,8 +103,6 @@ let g:tagbar_width=30
 set laststatus=2
 
 " Key mappings
-nmap <F3> :GundoToggle<cr>
 nmap <F4> :IndentGuidesToggle<cr>
 nmap <F5> :NERDTreeToggle<cr>
 nmap <F6> :TagbarToggle<cr>
-nmap <c-o> :CommandT<cr>
