@@ -13,7 +13,7 @@ endif
 let colors_name = "tir_black"
 
 " General colors
-hi Normal guifg=#f6f3e8 guibg=black ctermfg=white ctermbg=black 
+hi Normal guifg=#f6f3e8 guibg=black ctermfg=white ctermbg=black
 hi NonText guifg=#070707 guibg=black ctermfg=232 ctermbg=none
 
 hi Cursor guifg=black guibg=white ctermfg=0 ctermbg=15
@@ -38,14 +38,12 @@ hi WarningMsg guifg=white guibg=#FF6C60 gui=bold ctermfg=white ctermbg=203 cterm
 
 hi ModeMsg guifg=black guibg=#C6C5FE gui=bold ctermfg=0 ctermbg=189 cterm=bold
 
-if version >= 700 " Vim 7.x specific colors
- hi CursorLine guibg=#121212 gui=none ctermbg=234 cterm=none
- hi CursorColumn guibg=#121212 gui=none ctermbg=234 cterm=none
- hi MatchParen guifg=#f6f3e8 guibg=#857b6f gui=bold ctermfg=white ctermbg=darkgray 
- hi Pmenu guifg=#f6f3e8 guibg=#444444 ctermfg=white ctermbg=242 
- hi PmenuSel guifg=#000000 guibg=#cae682 ctermfg=0 ctermbg=195 
- hi Search guifg=#000000 guibg=#cae682 ctermfg=0 ctermbg=195 
-endif
+hi CursorLine cterm=bold
+hi CursorColumn ctermbg=234 cterm=none
+hi MatchParen ctermfg=white ctermbg=darkgray
+hi Pmenu ctermfg=white ctermbg=242 
+hi PmenuSel ctermfg=0 ctermbg=195 
+hi Search ctermfg=0 ctermbg=195 
 
 " Syntax highlighting
 hi Comment guifg=#A8FF60 ctermfg=155 

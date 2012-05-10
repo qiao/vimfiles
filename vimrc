@@ -26,6 +26,7 @@ set background=dark
 " Color settings
 set t_Co=256
 color tir_black
+set cursorline
 
 
 " Extra syntax highlighting for Lisp and variants
