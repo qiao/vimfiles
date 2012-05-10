@@ -46,7 +46,7 @@ Qiao's vim files
 
 The following command is for ArchLinux. Package names and install tools may differ in other distributions.
 
-    sudo yaourt -S ruby ack ctags
+    sudo yaourt -S ack ctags
 
 ## Installation ##
 
