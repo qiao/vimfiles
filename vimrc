@@ -64,7 +64,7 @@ set tabstop=4
 set shiftwidth=4 
 set linespace=4
 
-autocmd Syntax html,css,ruby,javascript,coffee set tabstop=2 shiftwidth=2 linespace=2
+autocmd Syntax html,css,ruby,coffee set tabstop=2 shiftwidth=2 linespace=2
 
 " Indent guides (default toggle key is <leader>ig)
 let g:indent_guides_auto_colors=0
