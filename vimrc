@@ -66,6 +66,9 @@ set linespace=4
 
 autocmd Syntax html,css,ruby,javascript,coffee set tabstop=2 shiftwidth=2 linespace=2
 
+" File Types
+autocmd BufRead,BufNewFile *.g set syntax=antlr3
+
 " Indent guides (default toggle key is <leader>ig)
 let g:indent_guides_auto_colors=0
 let g:indent_guides_start_level=2 
