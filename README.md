@@ -19,7 +19,7 @@ Qiao's vim files
 * [nerd commenter](https://github.com/scrooloose/nerdcommenter) - for intensely orgasmic commenting 
 * [nerd tree](https://github.com/scrooloose/nerdtree) - tree explorer plugin for navigating the filesystem
 * [powerline](https://github.com/Lokaltog/vim-powerline) - create better-looking, more functional vim statuslines
-* [rainbow parenthesis](http://www.vim.org/scripts/script.php?script_id=1230) - highlights matching parenthesis with a rainbow of colors
+* [rainbow parenthesis](https://github.com/kien/rainbow_parentheses.vim) - highlights matching parenthesis with a rainbow of colors
 * [rails.vim](https://github.com/tpope/vim-rails) - Ruby on Rails power tools 
 * [supertab](https://github.com/ervandew/supertab) - Perform all your vim insert mode completions with Tab 
 * [surround](https://github.com/tpope/vim-surround) - quoting/parenthesizing made simple
