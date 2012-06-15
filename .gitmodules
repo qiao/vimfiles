@@ -82,3 +82,6 @@
 [submodule "bundle/vim-antlr"]
 	path = bundle/vim-antlr
 	url = https://github.com/rollxx/vim-antlr.git
+[submodule "bundle/rainbow"]
+	path = bundle/rainbow
+	url = https://github.com/kien/rainbow_parentheses.vim.git

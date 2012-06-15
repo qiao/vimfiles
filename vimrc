@@ -28,9 +28,6 @@ set t_Co=256
 color tir_black
 set cursorline
 
-" Extra syntax highlighting for Lisp and variants
-autocmd Syntax lisp,scheme,clojure runtime plugin/RainbowParenthsis.vim
-
 " JQuery syntax support
 autocmd Syntax javascript set syntax=jquery
 
@@ -100,6 +97,29 @@ let NERDTreeWinSize=25
 " Tagbar
 let g:tagbar_left=0
 let g:tagbar_width=30
+
+" Rainbow parentheses for Lisp and variants
+let g:rbpt_colorpairs = [
+    \ [172, 172],
+    \ [167, 167],
+    \ [141, 141],
+    \ [39, 39],
+    \ [49, 49],
+    \ [82, 82],
+    \ [11, 11],
+    \ [172, 172],
+    \ [167, 167],
+    \ [141, 141],
+    \ [39, 39],
+    \ [49, 49],
+    \ [82, 82],
+    \ [11, 11],
+    \ [172, 172],
+    \ [167, 167],
+    \ ]
+let g:rbpt_max = 32
+autocmd Syntax lisp,scheme,clojure RainbowParenthesesToggle
+
 
 " Key mappings
 nmap <F4> :IndentGuidesToggle<cr>
