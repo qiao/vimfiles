@@ -58,9 +58,6 @@
 [submodule "bundle/neocomplcache"]
 	path = bundle/neocomplcache
 	url = https://github.com/Shougo/neocomplcache.git
-[submodule "bundle/tabbar"]
-	path = bundle/tabbar
-	url = https://github.com/vim-scripts/TabBar.git
 [submodule "bundle/tabular"]
 	path = bundle/tabular
 	url = https://github.com/godlygeek/tabular.git
@@ -85,3 +82,6 @@
 [submodule "bundle/rainbow"]
 	path = bundle/rainbow
 	url = https://github.com/kien/rainbow_parentheses.vim.git
+[submodule "bundle/tabbar"]
+	path = bundle/tabbar
+	url = https://github.com/humiaozuzu/TabBar.git

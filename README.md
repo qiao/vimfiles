@@ -24,7 +24,7 @@ Qiao's vim files
 * [supertab](https://github.com/ervandew/supertab) - Perform all your vim insert mode completions with Tab 
 * [surround](https://github.com/tpope/vim-surround) - quoting/parenthesizing made simple
 * [syntastic](https://github.com/scrooloose/syntastic/) - Syntax checking hacks for vim 
-* [tabbar](http://www.vim.org/scripts/script.php?script_id=1338) - add tab bar (derived from miniBufExplorer)
+* [tabbar](https://github.com/humiaozuzu/TabBar.git) - add tab bar (derived from miniBufExplorer)
 * [tabular](https://github.com/godlygeek/tabular) - for text filtering and alignment 
 * [tagbar](https://github.com/majutsushi/tagbar) - displays tags in a window, ordered by class etc
 * [vim-antlr](https://github.com/rollxx/vim-antlr) - Syntax highlighter for ANTLR files in vim

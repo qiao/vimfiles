@@ -94,6 +94,10 @@ let g:user_zen_settings={
 let NERDChristmasTree=1
 let NERDTreeWinSize=25
 
+" Tab Bar
+let g:Tb_MaxSize = 2
+let g:Tb_TabWrap = 1
+
 " Tagbar
 let g:tagbar_left=0
 let g:tagbar_width=30
