@@ -1,14 +1,44 @@
 " Don't be compatible with vi
 set nocompatible 
 
-filetype on  
+filetype off
 filetype plugin on
 filetype plugin indent on
 
-" Load pathogen to manage plugins
-call pathogen#runtime_append_all_bundles()
-call pathogen#helptags()
-call pathogen#infect()
+" Use Vundle to manage plugins
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+" let Vundle manage Vundle
+Bundle 'gmarik/vundle'
+
+Bundle 'bufexplorer.zip'
+Bundle 'c.vim'
+Bundle 'close-tag.vim'
+Bundle 'ctrlp.vim'
+Bundle 'delimitMate'
+Bundle 'tpope/vim-endwise'
+Bundle 'tpope/vim-fugitive'
+Bundle 'othree/html5.vim'
+Bundle 'nathanaelkane/vim-indent-guides'
+Bundle 'nono/jquery.vim'
+Bundle 'matchit.zip'
+Bundle 'Shougo/neocomplcache'
+Bundle 'scrooloose/nerdcommenter'
+Bundle 'scrolloose/nerdtree'
+Bundle 'Lokaltog/vim-powerline'
+Bundle 'kien/rainbow_parentheses.vim'
+Bundle 'tpope/vim-rails'
+Bundle 'ervandew/supertab'
+Bundle 'tpope/vim-surround'
+Bundle 'scrooloose/syntastic'
+Bundle 'humiaozuzu/TabBar'
+Bundle 'godlygeek/tabular'
+Bundle 'majutsushi/tagbar'
+Bundle 'kchmck/vim-coffee-script'
+Bundle 'pangloss/vim-javascript'
+Bundle 'zencoding-vim'
+
 
 " More powerful backspacing
 set backspace=indent,eol,start
