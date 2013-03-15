@@ -9,36 +9,8 @@ filetype plugin indent on
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
-" let Vundle manage Vundle
-Bundle 'gmarik/vundle'
-
-Bundle 'bufexplorer.zip'
-Bundle 'c.vim'
-Bundle 'close-tag.vim'
-Bundle 'ctrlp.vim'
-Bundle 'delimitMate'
-Bundle 'tpope/vim-endwise'
-Bundle 'tpope/vim-fugitive'
-Bundle 'othree/html5.vim'
-Bundle 'nathanaelkane/vim-indent-guides'
-Bundle 'nono/jquery.vim'
-Bundle 'matchit.zip'
-Bundle 'Shougo/neocomplcache'
-Bundle 'scrooloose/nerdcommenter'
-Bundle 'scrolloose/nerdtree'
-Bundle 'Lokaltog/vim-powerline'
-Bundle 'kien/rainbow_parentheses.vim'
-Bundle 'tpope/vim-rails'
-Bundle 'ervandew/supertab'
-Bundle 'tpope/vim-surround'
-Bundle 'scrooloose/syntastic'
-Bundle 'humiaozuzu/TabBar'
-Bundle 'godlygeek/tabular'
-Bundle 'majutsushi/tagbar'
-Bundle 'kchmck/vim-coffee-script'
-Bundle 'pangloss/vim-javascript'
-Bundle 'zencoding-vim'
-
+" Bundles
+source ~/.vim/vimrc.bundles
 
 " More powerful backspacing
 set backspace=indent,eol,start
@@ -92,9 +64,6 @@ set shiftwidth=4
 set linespace=4
 
 autocmd Syntax html,css,ruby,javascript,coffee set tabstop=2 shiftwidth=2 linespace=2
-
-" File Types
-autocmd BufRead,BufNewFile *.g set syntax=antlr3
 
 " Indent guides (default toggle key is <leader>ig)
 let g:indent_guides_auto_colors=0

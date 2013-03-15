@@ -3,7 +3,7 @@ Qiao's vim files
 
 ## Bundled Plugins ##
 
-* [ack.vim](https://github.com/mileszs/ack.vim) - for the Perl module / CLI script 'ack'
+* [ag.vim](https://github.com/epmatsw/ag.vim) - for the silver searcher
 * [bufexplorer](https://github.com/vim-scripts/bufexplorer.zip) - Buffer Explorer / Browser
 * [c.vim](https://github.com/vim-scripts/c.vim) - C/C++ IDE -- Write and run programs. Insert statements, idioms, comments etc
 * [closetag](https://github.com/docunext/closetag.vim) - Functions and mappings to close open HTML/XML tags
@@ -27,11 +27,8 @@ Qiao's vim files
 * [tabbar](https://github.com/humiaozuzu/TabBar.git) - add tab bar (derived from miniBufExplorer)
 * [tabular](https://github.com/godlygeek/tabular) - for text filtering and alignment 
 * [tagbar](https://github.com/majutsushi/tagbar) - displays tags in a window, ordered by class etc
-* [vim-antlr](https://github.com/rollxx/vim-antlr) - Syntax highlighter for ANTLR files in vim
 * [vim-coffee-script](https://github.com/kchmck/vim-coffee-script) - CoffeeScript support for vim
-* [vim-jade](https://github.com/digitaltoad/vim-jade) - Jade template engine syntax highlighting and indention
 * [vim-javascript](https://github.com/pangloss/vim-javascript) - Vastly improved vim's javascript indentation
-* [vim-stylus](https://github.com/wavded/vim-stylus) - Syntax highlighting for Stylus
 * [zencoding](https://github.com/mattn/zencoding-vim) - for high-speed HTML, XML, XSL, etc coding and editing
 
 ## Themes ##
@@ -42,12 +39,19 @@ Qiao's vim files
 
 ## Dependencies ##
 
-* `ack-grep` - required by `ack.vim`
+* `ag` - required by `ag.vim`
 * `ctags` - required by `tagbar`
 
-The following command is for ArchLinux. Package names and install tools may differ in other distributions.
+For ArchLinux. 
 
-    sudo yaourt -S ack ctags
+    sudo yaourt -S ag ctags
+
+For MacOS:
+
+	brew install ag ctags
+
+Note that package names and install tools may differ in other environments.
+
 
 ## Installation ##
 
@@ -58,17 +62,15 @@ Backup your own vim files.
 
 Clone this repository.
 
-    git clone git@github.com:qiao/vimfiles.git
-    mv vimfiles .vim
+    git clone git@github.com:qiao/vimfiles.git .vim
 
 Create link for `.vimrc`.
     
     ln -s .vim/vimrc .vimrc
 
-Update the submodules (This step may take some time. Go have yourself a cup of tea).
+Install the plugins (This step may take some time. Go have yourself a cup of tea).
 
-    cd .vim
-    git submodule init && git submodule update
+    ./install.sh
 
 ## Key Bindings ##
 
