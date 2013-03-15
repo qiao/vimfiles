@@ -2,8 +2,6 @@
 set nocompatible 
 
 filetype off
-filetype plugin on
-filetype plugin indent on
 
 " Use Vundle to manage plugins
 set rtp+=~/.vim/bundle/vundle/
@@ -11,6 +9,8 @@ call vundle#rc()
 
 " Bundles
 source ~/.vim/vimrc.bundles
+
+filetype plugin indent on
 
 " More powerful backspacing
 set backspace=indent,eol,start
