@@ -70,7 +70,7 @@ Create link for `.vimrc`.
 
 Install the plugins (This step may take some time. Go have yourself a cup of tea).
 
-    ./install.sh
+    .vim/install.sh
 
 ## Key Bindings ##
 
