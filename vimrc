@@ -137,6 +137,8 @@ let g:rbpt_colorpairs = [
 let g:rbpt_max = 32
 autocmd Syntax lisp,scheme,clojure RainbowParenthesesToggle
 
+" Easymotion leader key
+let g:EasyMotion_leader_key = '<Leader>'
 
 " Key mappings
 nmap <F4> :IndentGuidesToggle<cr>
