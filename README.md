@@ -10,7 +10,6 @@ Qiao's vim files
 * [delimitMate](https://github.com/Raimondi/delimitMate) - provides insert mode auto-completion for quotes, parens, brackets, etc
 * [endwise](https://github.com/tpope/vim-endwise) - wisely add "end" in ruby, endfunction/endif/more in vim script, etc
 * [fugitive](https://github.com/tpope/vim-fugitive) - Git wrapper 
-* [html5.vim](https://github.com/othree/html5.vim) - HTML5 omnicomplete and syntax
 * [indent guides](https://github.com/nathanaelkane/vim-indent-guides) - visually displaying indent levels in code
 * [jquery.vim](https://github.com/nono/jquery.vim) - Syntax file for jQuery
 * [matchit](https://github.com/vim-scripts/matchit.zip) - extended % matching for HTML, LaTeX, and many other languages
