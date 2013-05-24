@@ -152,3 +152,6 @@ command Wq wq
 command Q q
 command Qa qa
 command QA qa
+
+" Nginx syntax highlighting
+autocmd BufNew,BufRead,BufNewFile,BufEnter /etc/nginx/*,/usr/local/nginx/*,/usr/local/etc/nginx/* setfiletype nginx
