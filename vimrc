@@ -80,7 +80,12 @@ let g:neocomplcache_lock_buffer_name_pattern = '\*ku\*'
 autocmd Syntax html let g:neocomplcache_disable_auto_complete=1
 set completeopt-=preview
 
-" NeoSnippets
+" Snippet
+" Enable snipMate compatibility feature.
+let g:neosnippet#enable_snipmate_compatibility = 1
+
+" Tell Neosnippet about the other snippets
+let g:neosnippet#snippets_directory='~/.vim/bundle/vim-snippets/snippets'
 
 imap <C-k>     <Plug>(neosnippet_expand_or_jump)
 smap <C-k>     <Plug>(neosnippet_expand_or_jump)
@@ -91,8 +96,6 @@ smap <expr><TAB> neosnippet#expandable_or_jumpable() ? "\<Plug>(neosnippet_expan
 if has('conceal')
   set conceallevel=2 concealcursor=i
 endif
-
-let g:neosnippet#snippets_directory='~/.vim/bundle/snipmate-snippets/snippets'
 
 " SuperTab
 let g:SuperTabDefaultCompletionType="<c-n>"

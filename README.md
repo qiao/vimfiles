@@ -11,7 +11,7 @@ Qiao's vim files
 * [vim-easymotion](https://github.com/Lokaltog/vim-easymotion) -  provides a much simpler way to use some motions in vim
 * [endwise](https://github.com/tpope/vim-endwise) - wisely add "end" in ruby, endfunction/endif/more in vim script, etc
 * [fugitive](https://github.com/tpope/vim-fugitive) - Git wrapper 
-* [snipmate-snippets](https://github.com/honza/snipmate-snippets) - vim-snipmate default snippets
+* [vim-snippets](https://github.com/honza/vim-snippets) - vim-snipmate default snippets
 * [indent guides](https://github.com/nathanaelkane/vim-indent-guides) - visually displaying indent levels in code
 * [jquery.vim](https://github.com/nono/jquery.vim) - Syntax file for jQuery
 * [matchit](https://github.com/vim-scripts/matchit.zip) - extended % matching for HTML, LaTeX, and many other languages
