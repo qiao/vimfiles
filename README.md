@@ -81,3 +81,11 @@ Install the plugins (This step may take some time. Go have yourself a cup of tea
 * `F6` -> Toggle tagbar
 * `Ctrl` + `j` -> Call zen-coding expansion on html tags
 * `Alt` + `1~9` -> Switch between multiple buffers
+
+
+## FAQ ##
+
+1. The `Alt` + `1~9` combination does not work in iTerm.
+    
+    iTerm Preference --> Profiles --> Keys --> set `Left option key acts as` to `Meta`
+    
