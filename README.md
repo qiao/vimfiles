@@ -28,7 +28,7 @@ Qiao's vim files
 * [tabbar](https://github.com/humiaozuzu/TabBar.git) - add tab bar (derived from miniBufExplorer)
 * [tabular](https://github.com/godlygeek/tabular) - for text filtering and alignment 
 * [tagbar](https://github.com/majutsushi/tagbar) - displays tags in a window, ordered by class etc
-* [vim-css3-syntax]('https://github.com/hail2u/vim-css3-syntax') - Add CSS3 syntax support to vim
+* [vim-css3-syntax](https://github.com/hail2u/vim-css3-syntax) - Add CSS3 syntax support to vim
 * [vim-coffee-script](https://github.com/kchmck/vim-coffee-script) - CoffeeScript support for vim
 * [vim-javascript](https://github.com/pangloss/vim-javascript) - Vastly improved vim's javascript indentation
 * [zencoding](https://github.com/mattn/zencoding-vim) - for high-speed HTML, XML, XSL, etc coding and editing
