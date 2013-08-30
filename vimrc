@@ -101,8 +101,8 @@ endif
 let g:SuperTabDefaultCompletionType="<c-n>"
 
 " Zen-coding 
-let g:user_zen_expandabbr_key='<c-j>'
-let g:user_zen_settings={
+let g:user_emmet_expandabbr_key='<c-j>'
+let g:user_emmet_settings={
 \    'indentation': '  ',
 \}
 
