@@ -158,3 +158,6 @@ command QA qa
 
 " Nginx syntax highlighting
 autocmd BufNew,BufRead,BufNewFile,BufEnter /etc/nginx/*,/usr/local/nginx/*,/usr/local/etc/nginx/* setfiletype nginx
+
+" Slim syntax highlighting
+autocmd BufNew,BufRead,BufNewFile,BufEnter *.slim setfiletype slim
