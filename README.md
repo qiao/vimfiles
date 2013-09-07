@@ -32,6 +32,7 @@ Qiao's vim files
 * [vim-css3-syntax](https://github.com/hail2u/vim-css3-syntax) - Add CSS3 syntax support to vim
 * [vim-coffee-script](https://github.com/kchmck/vim-coffee-script) - CoffeeScript support for vim
 * [vim-javascript](https://github.com/pangloss/vim-javascript) - Vastly improved vim's javascript indentation
+* [vim-slim](https://github.com/slim-template/vim-slim) - slim syntax highlighting for vim
 
 ## Themes ##
 
