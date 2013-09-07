@@ -33,6 +33,7 @@ Qiao's vim files
 * [vim-coffee-script](https://github.com/kchmck/vim-coffee-script) - CoffeeScript support for vim
 * [vim-javascript](https://github.com/pangloss/vim-javascript) - Vastly improved vim's javascript indentation
 * [vim-slim](https://github.com/slim-template/vim-slim) - slim syntax highlighting for vim
+* [vim-haml](https://github.com/tpope/vim-haml) - vim runtime files for Haml, Sass, and SCSS
 
 ## Themes ##
 
