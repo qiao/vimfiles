@@ -78,6 +78,7 @@ let g:neocomplcache_enable_at_startup=1
 let g:neocomplcache_enable_smart_case=1
 let g:neocomplcache_min_syntax_length = 3
 let g:neocomplcache_lock_buffer_name_pattern = '\*ku\*'
+let g:neosnippet#disable_runtime_snippets = { "_": 1, }
 autocmd Syntax html let g:neocomplcache_disable_auto_complete=1
 set completeopt-=preview
 
