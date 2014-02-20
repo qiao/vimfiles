@@ -9,10 +9,9 @@ Qiao's vim files
 * [ctrlp](https://github.com/kien/ctrlp.vim) - Fuzzy file, buffer, mru and tag finder
 * [delimitMate](https://github.com/Raimondi/delimitMate) - provides insert mode auto-completion for quotes, parens, brackets, etc
 * [emmet-vim](https://github.com/mattn/emmet-vim) - for high-speed HTML, XML, XSL, etc coding and editing
-* [vim-easymotion](https://github.com/Lokaltog/vim-easymotion) -  provides a much simpler way to use some motions in vim
 * [endwise](https://github.com/tpope/vim-endwise) - wisely add "end" in ruby, endfunction/endif/more in vim script, etc
 * [fugitive](https://github.com/tpope/vim-fugitive) - Git wrapper 
-* [vim-snippets](https://github.com/honza/vim-snippets) - vim-snipmate default snippets
+* [haskell.vim](https://github.com/vim-scripts/haskell.vim) - Syntax highlight for haskell
 * [indent guides](https://github.com/nathanaelkane/vim-indent-guides) - visually displaying indent levels in code
 * [jquery.vim](https://github.com/nono/jquery.vim) - Syntax file for jQuery
 * [matchit](https://github.com/vim-scripts/matchit.zip) - extended % matching for HTML, LaTeX, and many other languages
@@ -29,10 +28,14 @@ Qiao's vim files
 * [tabbar](https://github.com/humiaozuzu/TabBar.git) - add tab bar (derived from miniBufExplorer)
 * [tabular](https://github.com/godlygeek/tabular) - for text filtering and alignment 
 * [tagbar](https://github.com/majutsushi/tagbar) - displays tags in a window, ordered by class etc
+* [unicode-haskell](https://github.com/frerich/unicode-haskell) - using Unicode characters in Haskell source code
 * [vim-css3-syntax](https://github.com/hail2u/vim-css3-syntax) - Add CSS3 syntax support to vim
 * [vim-coffee-script](https://github.com/kchmck/vim-coffee-script) - CoffeeScript support for vim
+* [vim-easymotion](https://github.com/Lokaltog/vim-easymotion) -  provides a much simpler way to use some motions in vim
+* [vim-golang](https://github.com/jnwhiteh/vim-golang) - Vim plugins for Go
 * [vim-javascript](https://github.com/pangloss/vim-javascript) - Vastly improved vim's javascript indentation
 * [vim-slim](https://github.com/slim-template/vim-slim) - slim syntax highlighting for vim
+* [vim-snippets](https://github.com/honza/vim-snippets) - vim-snipmate default snippets
 * [vim-haml](https://github.com/tpope/vim-haml) - vim runtime files for Haml, Sass, and SCSS
 
 ## Themes ##
