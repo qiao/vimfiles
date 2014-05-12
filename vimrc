@@ -21,6 +21,16 @@ set history=1000
 " Enalbe syntax highlighting
 syntax on
 
+" Set column limit for syntax highlighting
+" to prevent longs lines slowing down the world
+set synmaxcol=128 
+
+
+" Optimize scrolling
+set ttyfast
+set ttyscroll=3
+set lazyredraw
+
 " If using a dark background within the editing area and syntax highlighting
 " turn on this option as well
 set background=dark
