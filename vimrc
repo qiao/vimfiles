@@ -150,7 +150,10 @@ let g:rbpt_colorpairs = [
     \ [167, 167],
     \ ]
 let g:rbpt_max = 32
-autocmd Syntax lisp,scheme,clojure RainbowParenthesesToggle
+autocmd Syntax lisp,scheme,clojure RainbowParenthesesActivate
+autocmd Syntax lisp,scheme,clojure RainbowParenthesesLoadRound
+autocmd Syntax lisp,scheme,clojure RainbowParenthesesLoadSquare
+autocmd Syntax             clojure RainbowParenthesesLoadBraces
 
 " Easymotion leader key
 let g:EasyMotion_leader_key = '<Leader>'
