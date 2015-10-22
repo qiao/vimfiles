@@ -1,4 +1,4 @@
-Plugin 'gmarik/Vundle.vim'
+Plugin 'VundleVim/Vundle.vim'
 Plugin 'vim-scripts/c.vim'
 Plugin 'docunext/closetag.vim'
 Plugin 'kien/ctrlp.vim'
