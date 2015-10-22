@@ -1,7 +1,7 @@
 #/bin/sh
 
 if [ ! -e $HOME/.vim/bundle/vundle ]; then
-    git clone http://github.com/gmarik/vundle.git $HOME/.vim/bundle/vundle
+    git clone https://github.com/VundleVim/Vundle.vim.git $HOME/.vim/bundle/vundle
 fi
 
 system_shell=$SHELL
